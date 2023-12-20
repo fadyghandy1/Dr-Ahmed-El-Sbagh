@@ -21,7 +21,6 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
 
 /*********************************
 2. Body and some general stuff
@@ -42,6 +41,9 @@ body
 	font-weight: 400;
 	background: #FFFFFF;
 	color: #a5a5a5;
+}
+.dirc{
+	direction: rtl;
 }
 div
 {

@@ -21,7 +21,6 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
 
 /*********************************
 2. Body and some general stuff
@@ -29,6 +28,8 @@
 
 *
 {
+	font-family: 'Cairo', sans-serif;
+
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
@@ -37,7 +38,9 @@
 }
 body
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Cairo', sans-serif;
+
+	
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
@@ -45,6 +48,8 @@ body
 }
 div
 {
+	font-family: 'Cairo', sans-serif;
+
 	display: block;
 	position: relative;
 	-webkit-box-sizing: border-box;
@@ -53,12 +58,15 @@ div
 }
 ul
 {
+	font-family: 'Cairo', sans-serif;
+
 	list-style: none;
 	margin-bottom: 0px;
 }
 p
 {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Cairo', sans-serif;
+
 	font-size: 14px;
 	line-height: 2.14;
 	font-weight: 500;
@@ -69,6 +77,8 @@ p
 }
 p a
 {
+	font-family: 'Cairo', sans-serif;
+
 	display: inline;
 	position: relative;
 	color: inherit;
@@ -128,7 +138,7 @@ h4{font-size: 24px;}
 h5{font-size: 18px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Montserrat', sans-serif;
+
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -624,7 +634,11 @@ section
 /*********************************
 5. Home
 *********************************/
+.revues{
 
+font-size: 30px;
+
+}
 .home
 {
 	width: 100%;
@@ -1025,4 +1039,9 @@ section
 .footer_nav ul li a:hover
 {
 	color: #57ccc3;
+}
+.blog_post{
+	
+    display: contents;
+
 }

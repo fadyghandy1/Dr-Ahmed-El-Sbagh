@@ -25,7 +25,6 @@
 1. Fonts
 ***********/
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900');
 
 /*********************************
 2. Body and some general stuff
@@ -33,6 +32,7 @@
 
 *
 {
+	font-family: 'Cairo', sans-serif;
 	margin: 0;
 	padding: 0;
 	-webkit-font-smoothing: antialiased;
@@ -41,11 +41,12 @@
 }
 body
 {
-	font-family: 'Montserrat', sans-serif;
+	/* direction: rtl; */
 	font-size: 14px;
 	font-weight: 400;
 	background: #FFFFFF;
 	color: #a5a5a5;
+	font-family: 'Cairo', sans-serif;
 }
 div
 {
@@ -61,9 +62,9 @@ ul
 	margin-bottom: 0px;
 }
 p
-{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+{	font-family: 'Cairo', sans-serif;
+
+	font-size: 16px;
 	line-height: 2.14;
 	font-weight: 500;
 	color: #828282;
@@ -132,7 +133,7 @@ h4{font-size: 24px;}
 h5{font-size: 18px;}
 h1, h2, h3, h4, h5, h6
 {
-	font-family: 'Montserrat', sans-serif;
+	
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
@@ -389,10 +390,7 @@ section
 {
 	color: #57ccc3;
 }
-.main_nav ul li:not(:last-child)
-{
-	margin-right: 33px;
-}
+
 .work_hours
 {
 	font-size: 15px;
@@ -442,12 +440,13 @@ section
 {
 	color: #FFFFFF;
 }
-.social ul li:not(:last-of-type)
+.social ul li
 {
 	margin-right: 15px;
 }
 .social ul li a
 {
+	padding: 0px;
 	display: block;
 	width: 100%;
 	height: 100%;
@@ -489,6 +488,9 @@ section
 	padding-bottom: 5px;
 	padding-left: 7px;
 	padding-right: 150px;
+}
+.nv{
+	margin-right: 40px;
 }
 
 /*********************************
@@ -662,18 +664,19 @@ section
 }
 .home_subtitle
 {
+	text-align: right;
 	font-size: 30px;
 	color: #57ccc3;
 	font-weight: 600;
 	line-height: 1.1;
 }
 .home_title
-{
-	font-size: 60px;
-	color: #404040;
-	line-height: 1.2;
-	font-weight: 500;
-	margin-top: -2px;
+{text-align: right;
+    font-size: 100px;
+    color: #404040;
+    line-height: 1.2;
+    font-weight: 500;
+    margin-top: 2px;
 }
 .home_text
 {
@@ -931,14 +934,27 @@ section
 }
 .why_list_title
 {
+	font-family: 'Cairo', sans-serif;
+
 	text-align: right;
 	font-size: 18px;
 	font-weight: 600;
 	color: #404040;
 	line-height: 1.2;
 }
+.mm{
+	font-family: 'Cairo', sans-serif;
+
+text-align: center;
+}
+.pol {
+	font-family: 'Cairo', sans-serif;
+}  
 .why_list_text
 {
+	font-family: 'Cairo', sans-serif;
+	
+    text-align: right;
 	font-size: 14px;
 	font-weight: 500;
 	color: #868686;
@@ -1179,22 +1195,29 @@ section
 
 .footer
 {
+	font-family: 'Cairo', sans-serif;
+
 	display: block;
 	position: relative;
 	background: #26292d;
 }
 .footer_content
 {
+	font-family: 'Cairo', sans-serif;
+
 	direction: rtl;
 	padding-top: 94px;
 	padding-bottom: 51px;
 }
 .footer_about
 {
+	font-family: 'Cairo', sans-serif;
+
 	padding-top: 19px;
 }
 .footer_logo a > div:first-child
 {
+
 	font-size: 30px;
 	font-weight: 700;
 	line-height: 0.75;
@@ -1238,7 +1261,8 @@ section
 }
 .contact_list li
 {
-	font-size: 15px;
+	font-family: 'Cairo', sans-serif;
+	font-size: 16px;
 	font-weight: 500;
 	color: #878787;
 }
@@ -1329,4 +1353,20 @@ a{padding-left: 14px;
 }
 .cn{
 	text-align: center;
+}
+.wats{
+	position: absolute;
+    /* margin-bottom: -11px; */
+    margin-right: 4px;
+    padding-right: 5px;
+    font-size: 32px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.questions{
+
+}
+.lgg{
+	padding-left: 18px;
+	width: 230px;
 }

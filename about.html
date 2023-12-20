@@ -15,6 +15,8 @@
 <link rel="stylesheet" type="text/css" href="styles/about_responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;900&display=swap" rel="stylesheet">
+
 
 
 
@@ -29,18 +31,19 @@
 			<!-- Logo -->
 			<div class="logo">
 				<a href="#">
-					<div>دكتور<span>احمد الصباغ</span></div>
-					<div>اخصائي جراحه التجميل</div>
+					<div><img class="lgg" src="images/logoo.png"/></div>
+					
 				</a>
+				
 			</div>
 
 			<!-- Main Navigation -->
 			<nav class="main_nav">
-				<ul class="d-flex flex-row align-items-center justify-content-start">
+				<ul class="d-flex flex-row align-items-center justify-content-start ">
 					<li ><a href="index.html">الرئيسيه</a></li>
-					<li class="active"><a href="about.html"> اسئله شائعه</a></li>
 					<li><a href="services.html">الخدمات</a></li>
-					<!-- <li><a href="blog.html">الاخبار</a></li> -->
+					<li class="active"><a href="about.html"> اسئله شائعه</a></li>
+					<li><a href="blog.html">اراء العملاء</a></li> 
 					<li><a href="contact.html">تواصل معنا</a></li>
 				</ul>
 			</nav>
@@ -50,17 +53,19 @@
 			
 
 				<!-- Header Phone -->
-				<div class="header_phone">Mo - Sat: 8:00am - 9:00pm</div>
 
 				<!-- Appointment Button -->
-				<div class="button button_1 header_button"><a href="#">+201220551132</a></div>
+				<div class="button button_1 header_button"><a href="https://api.whatsapp.com/send/?phone=201033300494&text&type=phone_number&app_absent=0">201033300494+<i class="fa fa-whatsapp wats" aria-hidden="true"></i></a></div>
 
 				<!-- Header Social -->
 				<div class="social header_social">
 					<ul class="d-flex flex-row align-items-center justify-content-start">
-						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/drahmedsabbagh"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.facebook.com/drahmedsabbagh"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.twitter.com/drahmedsabbagh"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						
+						<li><a href=""><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+
 					</ul>
 				</div>
 
@@ -78,25 +83,27 @@
 		<nav class="menu_nav">
 			<ul>
 				<li><a href="index.html">الرئيسيه</a></li>
-				<li><a href="about.html"> اسئله شائعه</a></li>
+				<li class="questions"><a href="about.html"> اسئله شائعه</a></li>
 				<li><a  href="services.html">الخدمات</a></li>
-				<!-- <li><a href="blog.html">الاخبار</a></li> -->
+				<li><a href="blog.html">اراء العملاء</a></li>
 				<li><a href="contact.html">تواصل معنا</a></li>
 			</ul>
 		</nav>
 		<div class="menu_extra">
-			<div class="menu_link">Mo - Sat: 8:00am - 9:00pm</div>
-			<div class="menu_link">+201220551132</div>
+			<div class="menu_link">+201033300494</div>
 		</div>
 		<div class="social menu_social">
 			<ul class="d-flex flex-row align-items-center justify-content-start">
-				<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.instagram.com/drahmedsabbagh"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.facebook.com/drahmedsabbagh"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+				<li><a href="https://www.twitter.com/drahmedsabbagh"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+				<li><a href="#"><i class="fa fa-snapchat" aria-hidden="true"></i></a></li>
+				<li><a href="https://api.whatsapp.com/send/?phone=201033300494&text&type=phone_number&app_absent=0"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+
+
 			</ul>
 		</div>
 	</div>
-
 	<!-- Home -->
 
 	<div class="home d-flex flex-column align-items-start justify-content-end">
@@ -227,7 +234,6 @@
 
 	<!-- Footer -->
 
-	
 	<footer class="footer">
 		<div class="footer_content">
 			<div class="container cn">
@@ -257,9 +263,9 @@
 						<div class="footer_contact">
 							<div class="footer_title">معلومات الاتصال</div>
 							<ul class="contact_list">
-								<li>01220551132</li>
-								<li>yourmail@gmail.com</li>
-								<li>contact@gmail.com</li>
+								<div class="direct_line_num text-center"><a href="tel:+201033300494">Call +201033300494</a></div>
+
+								<li>ahmedelsabbagh18@gmail.com</li>
 							</ul>
 						</div>
 					</div>
@@ -269,8 +275,10 @@
 						<div class="footer_contact">
 							<div class="footer_title">عناويننا </div>
 							<ul class="contact_list">
-								<li>عياده 101 ميديكال بارك 2 – التجمع الخامس – القاهر</li>
-								<li>عيادة مستشفى الجميلة لجراحات التجميل – المقطم – القاهرة</li>
+								<li>
+									<a href="https://www.google.com/maps?q=Dr.+Ahmed+El+Sabbagh+-Plastic+Surgeon,+79+Axis,+New+Cairo+1,+Cairo+Governorate+4723116&ftid=0x14583d3b2f30167d:0x65e2f2f1daae4e15&hl=en-EG&gl=eg&coh=181295&entry=gps&lucs=,47069507,47071704&g_ep=CAISBjYuODIuNBgAINeCAyoSLDQ3MDY5NTA3LDQ3MDcxNzA0QgJFRw%3D%3D&g_st=ic">عياده 103 ميديكال بارك 2 – التجمع الخامس – القاهره</a>
+								</li>
+								<li> <a href="https://www.google.com/maps/place/%D8%B9%D9%8A%D8%A7%D8%AF%D8%A9+%D8%A7%D9%84%D8%AF%D9%83%D8%AA%D9%88%D8%B1+%D8%A3%D8%AD%D9%85%D8%AF+%D8%A7%D9%84%D8%B5%D8%A8%D8%A7%D8%BA+%D9%84%D8%AC%D8%B1%D8%A7%D8%AD%D8%A9+%D8%A7%D9%84%D8%AA%D8%AC%D9%85%D9%8A%D9%84%E2%80%AD/@30.0477876,31.2065657,17z/data=!3m1!4b1!4m6!3m5!1s0x145841221e1a1f21:0x776e9cf643a41a1b!8m2!3d30.0477876!4d31.2065657!16s%2Fg%2F11ssg78_fw?hl=en-EG&entry=ttu">18شارع الثوره - الدقى - الجيزة</a> </li>
 								
 							</ul>
 						</div>
