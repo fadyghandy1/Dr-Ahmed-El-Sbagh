@@ -122,10 +122,7 @@ p a:hover::after
 	background: rgba(87,204,195,0.75);
 	color: #FFFFFF;
 }
-p::selection
-{
-	
-}
+
 h1{font-size: 60px;}
 h2{font-size: 48px;}
 h3{font-size: 36px;}
@@ -140,15 +137,7 @@ h1, h2, h3, h4, h5, h6
 	line-height: 1.2;
 	color: #404040;
 }
-h1::selection, 
-h2::selection, 
-h3::selection, 
-h4::selection, 
-h5::selection, 
-h6::selection
-{
-	
-}
+
 .form-control
 {
 	color: #db5246;
@@ -241,7 +230,7 @@ section
 .parallax_background
 {
 	position: absolute;
-	top: 0;
+	top: 0px;
 	left: 0;
 	width: 100%;
 	height: 100%;
@@ -266,6 +255,12 @@ section
 	height: 46px;
 	border-radius: 20px;
 }
+.wa{
+
+    position: relative;
+    margin-right: 5px;
+    right: 9px;
+}
 .button a
 {
 	display: block;
@@ -278,7 +273,7 @@ section
 }
 .button_1
 {
-	background: #fd556d;
+	background: #57ccc3;
 	border: solid 2px transparent;
 }
 .button_1 a
@@ -482,13 +477,17 @@ section
 }
 .hamburger i
 {
-	font-size: 20px;
-	color: #404040;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 7px;
-	padding-right: 150px;
+	right: -46px;
+    position: absolute;
+    font-size: 20px;
+    color: #404040;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 7px;
+    padding-right: 150px;
+	bottom: -16px;
 }
+
 .nv{
 	margin-right: 40px;
 }
@@ -664,15 +663,15 @@ section
 }
 .home_subtitle
 {
-	text-align: right;
+	text-align: center;
 	font-size: 30px;
 	color: #57ccc3;
 	font-weight: 600;
 	line-height: 1.1;
 }
 .home_title
-{text-align: right;
-    font-size: 100px;
+{text-align: center;
+    font-size: 50px;
     color: #404040;
     line-height: 1.2;
     font-weight: 500;
@@ -724,7 +723,6 @@ section
 	text-align: center;
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 89px;
 	padding-bottom: 90px;
 }
 .intro_content
@@ -733,7 +731,7 @@ section
 }
 .pintro{
 	
-    font-size: 27px;
+    font-size: 20px;
     line-height: 2.14;
     font-weight: 800;
 }
@@ -881,7 +879,7 @@ section
 .intro_button:hover
 {
 	background: transparent;
-	border: solid 2px #fd556d;
+	border: solid 2px #6bdbd2;
 	color: #fd556d;
 }
 
@@ -897,7 +895,7 @@ section
 .why_content
 {
 	direction: rtl;
-	padding-top: 102px;
+	padding-top: 16px;
 	padding-bottom: 90px;
 }
 .why_text
@@ -955,7 +953,7 @@ text-align: center;
 	font-family: 'Cairo', sans-serif;
 	
     text-align: right;
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 500;
 	color: #868686;
 }
@@ -978,7 +976,7 @@ text-align: center;
 .cta
 {
 	width: 100%;
-	background: #fd556d;
+	background: #6bdbd2;
 	padding-top: 49px;
 	padding-bottom: 46px;
 }
@@ -988,6 +986,7 @@ text-align: center;
 	font-weight: 600;
 	color: #FFFFFF;
 	line-height: 1.2;
+	margin-left: 0;
 }
 .cta_text
 {
@@ -1007,7 +1006,7 @@ text-align: center;
 	font-size: 30px;
 	font-weight: 600;
 	color: #fff;
-	background: #ee4860;
+	background: #57ccc3;
 	border-radius: 19px;
 	white-space: nowrap;
 }
@@ -1019,7 +1018,7 @@ text-align: center;
 .services
 {
 	background: #FFFFFF;
-	padding-top: 91px;
+	padding-top: 19px;
 	padding-bottom: 25px;
 }
 .services_row
@@ -1052,10 +1051,7 @@ text-align: center;
 	padding-top: 54px;
 	padding-bottom: 53px;
 }
-.extra_container
-{
-	
-}
+
 .extra_content
 {
 	direction: rtl;
@@ -1359,13 +1355,11 @@ a{padding-left: 14px;
     /* margin-bottom: -11px; */
     margin-right: 4px;
     padding-right: 5px;
-    font-size: 32px;
+    font-size: 27px;
     padding-left: 10px;
     padding-top: 5px;
 }
-.questions{
 
-}
 .lgg{
 	padding-left: 18px;
 	width: 230px;

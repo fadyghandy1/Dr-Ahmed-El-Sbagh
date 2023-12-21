@@ -693,7 +693,7 @@ font-size: 30px;
 	margin-bottom: 87px;
 }
 .blog_post_image
-{
+{text-align: center;
 	width: 100%;
 	border-radius: 40px;
 	overflow: hidden;
@@ -743,7 +743,7 @@ font-size: 30px;
 }
 .blog_post_title a
 {
-	font-size: 30px;
+	font-size: 26px;
 	font-weight: 600;
 	color: #404040;
 	line-height: 1.2;
@@ -894,6 +894,9 @@ font-size: 30px;
 8. Footer
 *********************************/
 
+.vd{
+	margin: 10px;
+}
 .footer
 {
 	display: block;

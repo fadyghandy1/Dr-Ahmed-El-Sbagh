@@ -255,8 +255,9 @@
 		top: 154px;
 	}
 	.home_text
-	{
-		font-size: 13px;
+	{text-align: center;
+		font-size: 11px;
+		width: 359px;
 	}
 	.logo a > div:first-child
 	{
@@ -287,8 +288,9 @@
 		padding-right: 30px;
 	}
 	.home_title
-	{
-		font-size: 36px;
+	{    width: 176px;
+		margin-left: 78px;
+		font-size: 28px;
 	}
 	.cta_title
 	{
